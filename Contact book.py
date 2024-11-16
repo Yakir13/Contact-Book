@@ -1,9 +1,11 @@
 contact = {}
 
+
 def display_contact():
     print("Name\t\tContact Number")
     for key in contact:
         print("{}\t\t{}".format(key, contact.get(key)))
+
 
 while True:
     choose = int(
